@@ -33,21 +33,3 @@ Map <bool,String> compareAnswers(int computerGuess , int userGuess){
     return {true : "You Guessed it"};
   }
 }
-
-
-//print("Enter Your Number :");
-//do {
-//userGuess = stdin.readLineSync();
-//int conInput = int.parse(userGuess);
-//if (conInput < computerGuess) {
-//print("Too Low");
-//} else if (conInput > computerGuess) {
-//print("Too High");
-//}
-//
-//} while (computerGuess != userGuess);
-//
-//print("Your Win");
-//
-////======
-//}
